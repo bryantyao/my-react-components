@@ -10,9 +10,5 @@ export class Navbar extends Component {
       </nav>
     );
   }
-
-  _isActive(match,location) {
-    return location.pathname === this.path;
-  }
 }
 
